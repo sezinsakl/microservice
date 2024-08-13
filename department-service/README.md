@@ -1,12 +1,11 @@
-# Employee and Department Microservices Project
+# Department Microservice
 
 ## Overview
 
-This project consists of two microservices:
-- **Employee Service**: Manages employee information and CRUD operations.
 - **Department Service**: Manages department information and CRUD operations.
 
-Both services use Spring Boot and Hibernate for persistence and are integrated with H2 databases. Employee Service and Department Service communicate via Feign Client.
+You can acces this service via feign client like employee service.
+This servisce runs on port 8081
 
 ## Technologies
 
@@ -15,17 +14,6 @@ Both services use Spring Boot and Hibernate for persistence and are integrated w
 - **H2 Database**: In-memory database for development and testing.
 - **Feign Client**: For declarative REST client communication.
 
-## Services
-
-### Employee Service
-
-- **GET /employees**: Retrieve all employees.
-- **GET /employees/{id}**: Retrieve a specific employee by ID.
-- **POST /employees**: Add a new employee.
-- **PUT /employees/{id}**: Update an existing employee by ID.
-- **DELETE /employees/{id}**: Delete an employee by ID.
-
-### Department Service
 
 - **GET /departments**: Retrieve all departments.
 - **GET /departments/{id}**: Retrieve a specific department by ID.
@@ -44,4 +32,4 @@ Both services use Spring Boot and Hibernate for persistence and are integrated w
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/sezinsakl/employeeProject.git
+git clone https://github.com/sezinsakl/microservice/department-service.git
