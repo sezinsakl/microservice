@@ -1,0 +1,99 @@
+2024-08-13 22:06:37 [main] INFO  c.p.d.r.DepartmentRepositoryTest - Starting DepartmentRepositoryTest using Java 22.0.2 with PID 4044 (started by sezinsaklioglu in /Users/sezinsaklioglu/Desktop/Microservices/department-service)
+2024-08-13 22:06:37 [main] INFO  c.p.d.r.DepartmentRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-08-13 22:06:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13 22:06:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-08-13 22:06:37 [main] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-08-13 22:06:37 [main] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:2b168e4c-8010-409a-b76b-bfd1f427f35c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-08-13 22:06:38 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13 22:06:38 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13 22:06:38 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-13 22:06:38 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13 22:06:38 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-13 22:06:38 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13 22:06:38 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13 22:06:38 [main] INFO  c.p.d.r.DepartmentRepositoryTest - Started DepartmentRepositoryTest in 1.497 seconds (process running for 1.996)
+2024-08-13 22:06:39 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-08-13 22:06:39 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:39 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:39 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:39 [main] ERROR c.p.d.service.DepartmentServiceImpl - Department cannot be null.
+2024-08-13 22:06:39 [main] ERROR c.p.d.service.DepartmentServiceImpl - Department not found with id: 
+2024-08-13 22:06:39 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.employeeProject.repository.EmployeeRepositoryTest]: EmployeeRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-13 22:06:39 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.employeeProject.EmployeeProjectApplication for test class com.project.employeeProject.repository.EmployeeRepositoryTest
+2024-08-13 22:06:39 [main] INFO  c.p.e.r.EmployeeRepositoryTest - Starting EmployeeRepositoryTest using Java 22.0.2 with PID 4044 (started by sezinsaklioglu in /Users/sezinsaklioglu/Desktop/Microservices/department-service)
+2024-08-13 22:06:39 [main] DEBUG c.p.e.r.EmployeeRepositoryTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-13 22:06:39 [main] INFO  c.p.e.r.EmployeeRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-08-13 22:06:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13 22:06:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-08-13 22:06:39 [main] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-08-13 22:06:39 [main] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:e61a91ac-61f9-4ee3-a448-e07eec8831df;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-08-13 22:06:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13 22:06:39 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-13 22:06:39 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13 22:06:39 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-13 22:06:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13 22:06:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13 22:06:39 [main] INFO  c.p.e.r.EmployeeRepositoryTest - Started EmployeeRepositoryTest in 0.277 seconds (process running for 3.157)
+2024-08-13 22:06:39 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:39 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:06:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:06:40 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13 22:06:40 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13 22:07:07 [main] INFO  c.p.d.r.DepartmentRepositoryTest - Starting DepartmentRepositoryTest using Java 22.0.2 with PID 4077 (started by sezinsaklioglu in /Users/sezinsaklioglu/Desktop/Microservices/department-service)
+2024-08-13 22:07:07 [main] INFO  c.p.d.r.DepartmentRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-08-13 22:07:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13 22:07:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-08-13 22:07:08 [main] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-08-13 22:07:08 [main] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:190aa6a0-5555-4a54-b73b-c3d541301983;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-08-13 22:07:08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13 22:07:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13 22:07:08 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-13 22:07:08 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13 22:07:08 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-13 22:07:08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13 22:07:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13 22:07:09 [main] INFO  c.p.d.r.DepartmentRepositoryTest - Started DepartmentRepositoryTest in 1.453 seconds (process running for 1.937)
+2024-08-13 22:07:09 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-08-13 22:07:09 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:07:09 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:07:09 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-08-13 22:07:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-08-13 22:07:09 [main] ERROR c.p.d.service.DepartmentServiceImpl - Department cannot be null.
+2024-08-13 22:07:09 [main] ERROR c.p.d.service.DepartmentServiceImpl - Department not found with id: 
+2024-08-13 22:07:09 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
