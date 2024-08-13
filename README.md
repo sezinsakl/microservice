@@ -44,4 +44,4 @@ Both services use Spring Boot and Hibernate for persistence and are integrated w
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/sezinsakl/employeeProject.git
+git clone https://github.com/sezinsakl/microservice.git
