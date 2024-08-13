@@ -14,6 +14,7 @@ This servisce runs on port 8081
 - **H2 Database**: In-memory database for development and testing.
 - **Feign Client**: For declarative REST client communication.
 
+## Services
 
 - **GET /departments**: Retrieve all departments.
 - **GET /departments/{id}**: Retrieve a specific department by ID.
